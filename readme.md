@@ -1,5 +1,5 @@
 
-# U-KAN: U-Shape Kolmogorov-Arnold Networks
+# U-KAN: U-Shape Kolmogorov-Arnold Networks for Image Registration
 
 ## A KAN version of U-Net for Image Registration
 
