@@ -11,17 +11,17 @@ Key facts of U-KAN:
 
 Take home messages from U-KAN:
 
-* The registration performance of U-KAN, on this specific dataset, is slightly lower than that of U-Net (which is a strong baseline in registration as we proved in our workshop paper LKU-Net). However, we found that U-KAN actually takes longer to converge, therefore, we believe the performance of U-KAN might be easily improved by adopting more iterations.
+* The registration performance of U-KAN, on this specific dataset, is slightly lower than that of U-Net (which is a strong baseline in registration as we proved in our workshop paper (LKU-Net)[https://github.com/xi-jia/LKU-Net]). However, we found that U-KAN actually takes longer to converge, therefore, we believe the performance of U-KAN might be easily improved by adopting more iterations.
 
 * The current model is limited to 40 (ES-ED) cardiac 2D image pairs and trained on CPU only, due to lacking GPU resources. We believe large-scale experiments are needed for a more comprehensive evaluation of U-Net and U-KAN.
 
 ## Results
 
-We note that for a fair comparision, our U-KAN did not use the base_conv option, as discussed in https://github.com/ZiyaoLi/fast-kan/issues/8
+We note that for a fair comparison, our U-KAN did not use the base_conv option, as discussed in https://github.com/ZiyaoLi/fast-kan/issues/8
 
-* For a fair comparision, we trained 3 models with 3 different manual seeds. Currectly, the average registration performance of U-KAN is slightly lower than that of U-Net.
+* For a fair comparison, we trained 3 models with 3 different manual seeds. Currently, the average registration performance of U-KAN is slightly lower than that of U-Net.
 * We used only the mid slice from ES and ED to ease the training burden under CPU. 
-* The results for U-KAN might be further imporved by replacing RBF with different base functions such as B-Spline.
+* The results for U-KAN might be further improved by replacing RBF with different base functions such as B-Spline.
 
 |                 | Seed 0        | Seed 1        | Seed 2        |
 |-----------------|---------------|---------------|---------------|
