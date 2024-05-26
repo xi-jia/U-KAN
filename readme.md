@@ -7,7 +7,7 @@ Key facts of U-KAN:
 
 * The [KAN](https://github.com/KindXiaoming/pykan) parts of the code are adopted from [KA-Conv](https://github.com/XiangboGaoBarry/KA-Conv) and [Fast-KAN](https://github.com/ZiyaoLi/fast-kan).
 * The registration parts of the code are adopted from [IC-Net](https://github.com/zhangjun001/ICNet), [SYM-Net,](https://github.com/cwmok/Fast-Symmetric-Diffeomorphic-Image-Registration-with-Convolutional-Neural-Networks) and [TransMorph](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration). 
-* The data used is from [ACDC](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html), where we used the mid-ventricular slices from 100 labeled paired ES and ED scans. Specifically, for each pathology class,  we split them as 4:1:5 for training:validation:testing, resulting in 40 pairs for training, 10 pairs for validatoin, and 40 pairs for testing.
+* The data used is from [ACDC](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html), where we used the mid-ventricular slices from 100 labeled paired ES and ED scans. Specifically, for each pathology class,  we split them as 4:1:5 for training:validation:testing, resulting in 40 pairs for training, 10 pairs for validatoin, and 50 pairs for testing.
 
 Take home messages from U-KAN:
 
