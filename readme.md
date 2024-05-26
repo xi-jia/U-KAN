@@ -11,7 +11,7 @@ Key facts of U-KAN:
 
 Take home messages from U-KAN:
 
-* The registration performance of U-KAN, on this specific dataset, is slightly lower than that of U-Net (which is a strong baseline in registration as we proved in our workshop paper (LKU-Net)[https://github.com/xi-jia/LKU-Net]). However, we found that U-KAN actually takes longer to converge, therefore, we believe the performance of U-KAN might be easily improved by adopting more iterations.
+* The registration performance of U-KAN, on this specific dataset, is slightly lower than that of U-Net (which is a strong baseline in registration as we proved in our workshop paper [LKU-Net](https://github.com/xi-jia/LKU-Net)). However, we found that U-KAN actually takes longer to converge, therefore, we believe the performance of U-KAN might be easily improved by adopting more iterations.
 
 * The current model is limited to 40 (ES-ED) cardiac 2D image pairs and trained on CPU only, due to lacking GPU resources. We believe large-scale experiments are needed for a more comprehensive evaluation of U-Net and U-KAN.
 
