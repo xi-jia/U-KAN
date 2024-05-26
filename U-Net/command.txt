@@ -1,0 +1,6 @@
+
+python test.py --global_seed 0 --start_channel 4 --using_l2 1 --smth_labda 0.05 --lr 1e-4 --iteration 40001 --checkpoint 400
+python test.py --global_seed 1 --start_channel 4 --using_l2 1 --smth_labda 0.05 --lr 1e-4 --iteration 40001 --checkpoint 400
+python test.py --global_seed 2 --start_channel 4 --using_l2 1 --smth_labda 0.05 --lr 1e-4 --iteration 40001 --checkpoint 400
+
+
